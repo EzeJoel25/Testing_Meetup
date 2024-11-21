@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { authPageConstants } from "../../constants/texts.c";
 import styles from "./index.module.css";
 
+// Auth page
 const AuthPage = () => {
   const navigate = useNavigate();
   return (
